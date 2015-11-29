@@ -1,0 +1,32 @@
+%\documentclass[a4paper,12pt]{book}
+\documentclass[a4paper,12pt]{report}
+\usepackage{lhr,russian}
+\usepackage{amsmath,amssymb}
+
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\CC}{\mathbb{C}}
+
+\newcommand{\PP}{\mathbf{P}}
+\providecommand{\bm}[1]{\mbox{\boldmath$#1$}}
+\renewcommand{\vec}[1]{\bm{#1}}
+
+\newcommand{\triug}{$\triangledown$}
+\newcommand{\triugb}{$\blacktriangledown$}
+
+\newcounter{punkt}[chapter]
+\renewcommand{\thepunkt}{\textbf{(\arabic{punkt})}}
+\newcommand{\punkt}{
+        \refstepcounter{punkt}
+%        \textbf{(\thepunkt)}
+        {\thepunkt}
+}
+
+
+\begin{document}
+\input{pred.tex}
+\input{chapter1.tex}
+\input{list.tex}
+
+\end{document}
+
+

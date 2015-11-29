@@ -1,0 +1,122 @@
+% dviscr 1.6f  10-Mar-2000  23:57
+%
+% Invocation: dviscr @lj /fl=-1 /ocr=1 quant.dvi -pj:C:\WINDOWS\TEMP\dv1.mfj
+% Input file: quant.dvi
+%
++first-page:*
++last-page:*
++double-sided:-
++skip-sides:0
++number-of-sides:65535
++backward:off
++left-margin:0in
++top-margin:0in
++height:11in
++width:8.5in
++transformation:0
++page-width:8.5in
++page-height:11in
++page-left-margin:1in
++page-top-margin:1in
++backside-offset-x:0in
++backside-offset-y:0in
++columns:1
++rows:1
++section-count:0
++section-size:0
++full-last-section:off
++fold-other:off
++page-shift:0in
++blank-pages:0
++batch-mode
++call-mfjob:on
++ask-mfjob:on
++font-load-limit:-1
++metafont-mode:laserjet
++omit-graphics:off
++font-scaling:1
++max-drift:2
++font-size-tolerance:0.2
++use-tfm-files:off
++font-sizes::0,:h,:1,:2,:3,:4,:5,:6,:7,:8,:9
++magnification:
++resolution:300
++font-resolution:300
++graphics-resolution:0
++dvi-file:{,$DVIDRVINPUT:}@i
++font-files:$DVIDRVFONTS:pixel.lj\@Rrdpi\@f{.pk,.pxl}
++graphics-files:{,$DVIDRVGRAPH:}{@Rrdpi\,}@PBf{@Ef,.msp,.pcx,.bmp}
++mfjob-file:C:\WINDOWS\TEMP\dv1.mfj
++font-libraries:$DVIDRVFONTS:lj_{base,more}
++page-list-file:
++response-files:{,$EMTEX:data\}@f
++font-subst-files:
++transcript-file:@d.dlg
++virtual-fonts:
++fontlib-file:
++verbosity:2
++unit:in
++use-ems:on
++use-xms:on
++home-x:1in
++home-y:1in
++zoom:1
++adapter:0
++color:p2 +color:r1 +color:s2
++inverse:off
++ruler:off
++status-line:on
++ruler-unit:pt
++scaling:1
+@
+
+' TeX output 2000.03.10:2356'
+Loading font lhbx12 scaled 1000
+  (C:\LHTEX\TEXFONTS\pixel.lj\300dpi\lhbx12.pk)
+Loading font eufm10 scaled 1200
+  (C:\LHTEX\TEXFONTS\pixel.lj\360dpi\eufm10.pk)
+Loading font lhr7 scaled 1000  (C:\LHTEX\TEXFONTS\pixel.lj\300dpi\lhr7.pk)
+Loading font lhr10 scaled 1000  (C:\LHTEX\TEXFONTS\pixel.lj\300dpi\lhr10.pk)
+Loading font lhr8 scaled 1000  (C:\LHTEX\TEXFONTS\pixel.lj\300dpi\lhr8.pk)
+Loading font cmsy8 scaled 1000  (C:\LHTEX\TEXFONTS\lj_base.fli [cmsy8])
+Loading font cmsy10 scaled 1200  (C:\LHTEX\TEXFONTS\lj_base.fli [cmsy10])
+Loading font cmmi6 scaled 1000  (C:\LHTEX\TEXFONTS\lj_base.fli [cmmi6])
+Loading font cmmi8 scaled 1000  (C:\LHTEX\TEXFONTS\lj_base.fli [cmmi8])
+Loading font cmmi12 scaled 1000  (C:\LHTEX\TEXFONTS\lj_base.fli [cmmi12])
+Loading font cmr6 scaled 1000  (C:\LHTEX\TEXFONTS\lj_base.fli [cmr6])
+Loading font cmr8 scaled 1000  (C:\LHTEX\TEXFONTS\lj_base.fli [cmr8])
+Loading font lhbx12 scaled 1440
+  (C:\LHTEX\TEXFONTS\pixel.lj\432dpi\lhbx12.pk)
+Loading font lhr12 scaled 1000  (C:\LHTEX\TEXFONTS\pixel.lj\300dpi\lhr12.pk)
+Loading font cmr12 scaled 1000  (C:\LHTEX\TEXFONTS\lj_base.fli [cmr12])
+Loading font cmmi10 scaled 1000  (C:\LHTEX\TEXFONTS\lj_base.fli [cmmi10])
+Loading font cmmi7 scaled 1000  (C:\LHTEX\TEXFONTS\lj_base.fli [cmmi7])
+Loading font cmex10 scaled 1000  (C:\LHTEX\TEXFONTS\lj_base.fli [cmex10])
+Loading page pointers... 7 input pages, 7 output sheets.
+ [1] [2] [3] [4] [5] [6] [7] [6] [7] [6]
+
+Memory usage:
+Strings                          38          0
+Page buffers                      2      20480
+Sorted page buffers               2      20480
+Sorted page index              3375      27000
+Position stack                   14        392
+Font table                       18       1296
+Font indices                     18        108
+Page table                        7          0
+Characters                     1920      61440
+Raster data                     136      12575
+VF characters                     0          0
+VF macros                         0          0
+Graphics                          0          0
+Lines                             0          0
+Font library directories          0          0
+Band buffer                       0          0
+TOTAL                                   143771
+
+Number of deallocations:    522
+Temporary file size:          0
+EMS bytes used:          178688
+XMS bytes used:               0
+External memory reads:      606
+External memory writes:      43
